@@ -1,0 +1,57 @@
+<html>
+<head lang="it">
+<title>Gestione Segreteria Studenti</title>
+<meta charset="utf-8">
+</head>
+<body>
+<header>
+<h1>Iscrivi un nuovo Studente</h1>
+<h2>Compila i seguente form per registrare un nuovo studente</h2>
+</header>
+
+<form method="get" action="confermaIscrizione.php">
+<table>
+<tr>
+	<section><td>Matricola: </td> <td> <input name="matricola" type="text" /> </td></section>
+</tr>
+<tr>
+	<section><td>Nome:</td> <td><input name="nome" type="text" /></td></section>
+</tr>
+<tr>
+	<section><td>Cognome: </td><td><input name="cognome" type="text" /></td></section>
+</tr>
+<tr>
+	<section><td>Data di Nascita:</td> <td> <input name="dataNascita" type="date" /></td></section>
+</tr>
+<tr>
+	<section><td>Definisci una password per lo studente:</td> <td> <input name="password" type="password" /></td></section>
+</tr>
+<tr>
+	<section><td>Conferm password:</td> <td> <input name="confermaPassword" type="password" /></td></section>
+</tr>
+<tr>
+	<section><td>Indirizzo:</td> 
+		<td> 
+			<select name="indirimzo">
+				<optgroup label="Intelligenza Artificiale">
+				<option value="rob">Robotica</option>
+				<option value="logic">Logica Computazionale</option>
+				</optgroup>
+				<optgroup label="Storia">
+				<option value="arch">Archeologia</option>
+				</optgroup>				
+			</select>
+		</td></section>
+</tr>
+<tr>
+	<section><td> <input name="validaDati" type="button" value="Valida Dati"/></td></section>
+</tr>
+<tr>
+	<section><td> <input name="inviaDati" type="submit" value="Invia Dati"/></td></section>
+</tr>
+</table>
+</form>
+
+
+</body>
+</html>
